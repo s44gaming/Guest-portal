@@ -1,4 +1,4 @@
 # Guest-portal
 
 
-httpsd://s44media.com
+https://s44media.com
