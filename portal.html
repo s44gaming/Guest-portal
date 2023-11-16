@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="Language" content="fi" />
+    <title>Haaparanta Kirjautuminen</title>
+    <style>
+        div {
+            background-color: rgb(146, 233, 240);
+            width: 1750px;
+            padding: 50px;
+            margin: 20px;
+            text-align: center;
+        }
+        body{
+            background-color: rgb(172, 169, 169);
+        }
+        h2{
+            color:rgb(0, 0, 0);
+            text-align: center;
+        }
+        h4{
+            color: rgb(49, 46, 46);
+        }
+        </style>
+  </head>
+  <body>
+    ​<h2>Verkon käyttöehdot</h2>
+
+    <div>
+        <h4>Own text here<br></h4>
+    </div>     
+    <form method="post" action="$PORTAL_ACTION$">
+        <input name="redirurl" type="hidden" value="$PORTAL_REDIRURL$">
+        <input name="zone" type="hidden" value="$PORTAL_ZONE$">
+        <input name="accept" type="submit" value="Hyväksy">
+     </form>
+     <h5> 2022 © s44Gaming</h5>
+  </body>
+</html>
